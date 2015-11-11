@@ -14,12 +14,12 @@ extern "C" {
  */
 
 #include "axel.h"
-JNIEXPORT void JNICALL Java_com_axeldroid_Axel_newTask(JNIEnv *, jobject, jint,
-		jstring, jobjectArray);
+JNIEXPORT void JNICALL Java_com_axeldroid_Axel_newTask(JNIEnv*, jobject, jint,
+    jstring, jobjectArray);
 
-JNIEXPORT void JNICALL Java_com_axeldroid_Axel_axel_stop(JNIEnv *, jobject,jlong);
+JNIEXPORT void JNICALL Java_com_axeldroid_Axel_axel_stop(JNIEnv*, jobject, jlong);
 
-JNIEXPORT void JNICALL Java_com_axeldroid_Axel_refreshProgress(JNIEnv *, jobject,jlong);
+JNIEXPORT void JNICALL Java_com_axeldroid_Axel_refreshProgress(JNIEnv*, jobject, jlong);
 
 void notifyProgress(void*);
 #ifdef __cplusplus

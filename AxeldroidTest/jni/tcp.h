@@ -1,4 +1,4 @@
-  /********************************************************************\
+/********************************************************************\
   * Axel -- A lighter download accelerator for Linux and other Unices. *
   *                                                                    *
   * Copyright 2001 Wilmer van der Gaast                                *
@@ -23,5 +23,5 @@
   Suite 330, Boston, MA  02111-1307  USA
 */
 
-int tcp_connect( char *hostname, int port, char *local_if );
-int get_if_ip( char *iface, char *ip );
+int tcp_connect(char* hostname, int port, char* local_if);
+int get_if_ip(char* iface, char* ip);
